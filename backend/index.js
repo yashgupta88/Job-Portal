@@ -3,7 +3,7 @@ import cookieParser from "cookie-parser"
 import 'dotenv/config'
 import cors from "cors"
 import connectDB from "./db/index.js";
-import userRoute from "./routes/user.route.js"
+import userRoute from "./routes/user.routes.js"
 import companyRoute from "./routes/company.routes.js"
 import jobRoute from "./routes/job.routes.js"
 import applicationRoute from "./routes/application.routes.js"
